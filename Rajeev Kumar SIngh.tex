@@ -1,0 +1,122 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{url,parskip} 	%other packages for formatting
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{supertabular} 				%for Grades
+\usepackage{titlesec}					%custom \section
+
+%Setup hyperref package, and colours for links
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\def\LOGO{%
+\begin{picture}(0,0)\unitlength=1cm
+\put (1,-3.5) {\includegraphics[scale=0.6]{logo_iiitv.png}}
+\hspace*{13cm}Last Updated on \today \\ \\
+\end{picture}
+}
+\usepackage{geometry}
+\geometry{top=15mm,bottom=15mm,left=15mm,right=15mm}
+
+\begin{document}
+\begin{minipage}{\linewidth}
+\LOGO\\
+\end{minipage}
+\begin{flushright}
+\begin{minipage}{12cm}
+
+%------------------------------------------Personal Data---------------------------------------------%
+\begin{huge}\textbf{Rajeev Kumar Singh}\\ \end{huge}
+\begin{large}
+\textbf{Indian Institute of Information Technology, Vadodara\\}
+\textbf{Email : }201452062@iiitvadodara.ac.in \hspace*{.2cm} \textbf{Dob }: 15-11-1996 
+
+\textbf{Address}:V/P-Bhikhpur-Bhagwanpur, Dist.-Siwan, Bihar(841236)\vspace{.1cm}
+\textbf{GitHub : }rajeeviiit,\hspace*{.2cm}\textbf{HackerRank : } h201452062\\
+\textbf{Codechef : }\verb|raj_1511|
+\end{large}
+\end{minipage}
+\end{flushright}
+
+%Section: Education
+\section{Education}
+\begin{tabular}{lllc}	
+\textbf{Degree}&\textbf{Institute}&\textbf{Year}&\textbf{CPI/Aggregate}\\
+B.Tech.& Indian Institute of Information Technology, Vadodara & 2014-2018 & 7.76  \\
+Intermidiate/+2 & S.B.S Inter College,Sani Basantpur,Siwan & 2012-2014 & 67.40\%\\
+High School & S.V.S H/S Amlori Sarsar,Siwan & 2010-2011 & 81.00\%\\
+\end{tabular}
+
+%Section: Skills
+\section{Skills}
+\begin{tabular}{ll}
+\textbf{Expertise Area:} & Database Design, Algorithm Desing and Analysis,Database, Android Development . \\
+\textbf{Area(s) of Interest:}& Android Development, Object oriented Concepts,Beck-end Developer .\\
+\textbf{Programming Language(s):}& C, Java,Python,Latex,c++.\\
+\textbf{Tools and Technologies/SDK(s)} & Android Studio,Texmaker,GitHub,Command-line,Eclipse,Sublime Text.\\
+\textbf{Database:} & PostgreSQL,Mysql,firebase,FCM.\\
+\textbf{Elective:} & Modern Application Development(IIT MADRAS and HASURA).
+
+\end{tabular}
+
+
+%Section: Projects
+\section{Projects}
+
+\begin{large}
+\textbf{Hotel Management Database System \hspace*{3cm} Guide:Pokharmal      Jat(DAIICT) }
+\end{large} \\
+This project is based on RDBMS design model. The system
+will keep record of customer entering and exiting hotel, food details, room allotment etc.
+
+\begin{large}\textbf{TicTacToe (Android Game) \hspace*{3cm} Guide  :Rajat Talesra(Google Facilitator)}
+\end{large}
+This project is about tictactoe game .In this game, two player is required one player assign will 0  and other will assign X. If a player maintains three consecutive 0 or X will be winner  .\hspace*{5.5cm}
+
+
+\begin{large}\textbf{Bims' Kitchen (Android Application)\hspace{3cm} Guide : Prof. Asim Banerjee(DAIICT)}\end{large} 
+Bims' Kitchen is night Kitchen in Gandhinagar and we are Building android application for them . This android app display menu and we can order food items online . In this project, we are using firebase as a database.
+.\hspace{13cm}  
+
+\begin{large}\textbf{Online Shopping Website (Web Application) \hspace*{3cm}Guide:Pokharmal      Jat(DAIICT)}
+\end{large}
+This is basically online shopping website in which users can search and order items. I am still working on this project.
+I am using HTML,CSS for front-end and php for back-end. Database is made in phpmyadmin\hspace*{5.5cm}
+%Section: Internships
+
+
+
+
+%Section: Work Experience
+
+%Section: Awards and Achievements
+\section{Awards and Achievements}
+\begin{itemize}
+\item Participation in coding contest on Hackarrank and codechef.
+\item A certificate from codechef for qualifying in snackdown 2016 coding contest.
+\item A certificate from IITRAM for workshop on Ethical hacking.
+\item A certificate from IIT Madras and Hasura for Successfully Completing the sep 2016 edition of Introduction to modern application development 
+ 
+\end{itemize}
+
+
+\section{Position(s) of Responsibility}
+
+\begin{itemize}
+\item Volunteer - Android Monk  Workshop(IIIT VADODARA). 
+\end{itemize}
+
+
+
+%Section: Interests and Activities
+\section{Interests and Activities}
+\begin{itemize}
+\item Solving the real life problem, Reading Inspire story, Read Novel
+\item Networking, playing outdoor games.\end{itemize}\\\\
+
+\textbf{Declaration} : I hereby declare that all the details furnished above are true to the best of my knowledge and believe.
+\end{document}
